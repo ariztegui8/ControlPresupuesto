@@ -1,0 +1,92 @@
+body{
+    background-image: url(./assets/weather.png);
+    padding: 0px 0px 50px 0px;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.title-pregunta{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-presupuesto{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    border: 2px solid gray;
+}
+
+.btn-input{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.contenido-principal{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.title-formulario{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-formulario{
+    width: 90%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding: 5px;
+    border: 2px solid gray;
+}
+
+.label-formulario{
+    margin-bottom: 5px;
+}
+
+.btn-formulario{
+    width: 90%;
+}
+
+.mensaje-error{
+    width: 90%;
+}
+
+.title-listado{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+.gasto-gasto{
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.gasto-cantidad{
+    background-color: hsla(233, 100%, 10%, 0.938);
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 500;
+    
+    
+}
+
+.gasto-nombre{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 500;
+}
